@@ -24,12 +24,12 @@ function promptUser(){
         {
             type: "input",
             name: "usage",
-            message: "What is this project usage for?"
+            message: "What is this project's usage information?"
         },
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project: ",
+            message: "Choose the appropriate license for this project: ",
             choices: [
                 "Apache",
                 "Academic",
@@ -43,7 +43,7 @@ function promptUser(){
         {
             type: "input",
             name: "contributing",
-            message: "Who are the contributors of this projects?"
+            message: "Who are the contributors of this projects and are contributions needed?"
         },
         {
             type: "input",
@@ -53,7 +53,7 @@ function promptUser(){
         {
             type: "input",
             name: "questions",
-            message: "What do I do if I have an issue? "
+            message: "What to do if there is an issue? "
         },
         {
             type: "input",
