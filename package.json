@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A node app that helps users create a professional readme via input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanchen0706/node.git"
+  },
+  "author": "Ryan Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanchen0706/node/issues"
+  },
+  "homepage": "https://github.com/ryanchen0706/node#readme"
+}
